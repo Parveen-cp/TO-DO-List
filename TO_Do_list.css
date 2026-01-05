@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(27, 27, 27);
+}
+
+#container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px black;
+    text-align: center;
+    min-height: 550px;
+    background-color: rgb(36, 36, 36);
+}
+#myh1{
+    color: rgb(54, 54, 247);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container form input{
+    height: 30px;
+    width: 400px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid rgb(54, 54, 247);
+    outline: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+#container form button{
+    height: 37px;
+    width: 70px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(#ff8a00, #e52e71);
+    background-image: linear-gradient(to right, rgb(214, 65, 214), rgb(230, 59, 59), purple);
+    background-image: linear-gradient(40deg, rgb(240, 23, 113) 60%, orange);
+}
+#output-window{
+    min-height: 400px;
+    width: 500px;
+    text-align: start;
+    font-size: 25px;
+}
+#list{
+    position: relative;
+    color: whitesmoke;
+}
+#delbtn{
+    text-align: center;
+    cursor: pointer;
+    height: 30px;
+    width: 55px;
+    font-size: 18px;
+    position: absolute;
+    right: 5px;
+    background-color: transparent;
+    border: none;
+    color: red;
+}
+#userinput{
+    color: azure;
+}
+#check{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+/* #timeline{
+    width: 100%;
+    height: 3px;
+    background-color: red;
+} */
